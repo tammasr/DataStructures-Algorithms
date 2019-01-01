@@ -1,0 +1,13 @@
+to Iterate:
+1. strings - for of
+2. Objects - for in 
+
+Comparing strings/ Anagrams: 
+1. Build charMaps with counts and compare
+	1. for (let char in string){
+		charMap[char] = charMap[char] + 1 || 1;
+	}
+	//Alternate solution
+2. str.replace(/[^\w]/g, '').toLowerCase().sort(). & then compare 2 strings if they are equal
+
+
